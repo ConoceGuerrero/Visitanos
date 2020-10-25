@@ -1,0 +1,42 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="ae-grid au-xs-ta-center au-mb-3">
+    
+  <div *ngFor="let producto of infoService.equipo"  class="animated fadeIn ae-grid__item item-lg-4 ae-kappa au-mb-3">
+    <img [src]="producto.url" alt="" class="au-mb-3">
+    <h5 class="ae-u-bolder au-mt-2">{{ producto.Nombre }}</h5>
+    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ producto.Descripcion }}</p>
+    
+    
+  </div>
+
+</div>
+<div class="ae-grid au-pt-2">
+  <div class="ae-grid__item item-lg-8 item-lg--offset-2">
+    <h4 class="ae-u-bolder">Title example</h4>
+    <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+  </div>
+</div>
+<div class="ae-grid ae-grid--alt au-xs-ptp-1">
+  <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">Acerca de nosotros</h6>
+    <p class="au-lh-3">Somos una  microempresa que se dedica a la venta de comida Yucateca y Guerrerense un lugar que solo se encuentra en la ciudad de Iguala. </p>
+  </div>
+  <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">Nuestra Mision</h6>
+    <p class="au-lh-3">Aumentar la producción de productos para extender varios puntos de venta en la ciudad y así ofrecer a decenas de personas empleo para impulsar la economía. Se atenderá con las respectivas medidas de higiene y prevención para el ciudad e integridad de los clientes </p>
+  </div>
+  <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">Politica de Calidad</h6>
+    <p class="au-lh-3">Elaboramos productos alimenticios para nuestros clientes con precios accesibles, comprometiéndonos a cuidar la higiene de los productos y brindando la mejor atención al cliente con una puntualidad al entregar los pedidos trabajando todos conjuntamente en equipo.
+       </p>
+    
+  </div>
+</div>
+      
