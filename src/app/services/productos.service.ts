@@ -21,7 +21,7 @@ export class ProductosService {
 
   private cargarProductos() {
     return new Promise( ( resolve, reject)=>{
-    this.http.get('https://proyectoestadias-3f3f0.firebaseio.com/productos_idx.json')
+    this.http.get('https://conoceguerrero-eb5b7.firebaseio.com/productos_idx.json')
         .subscribe( (resp: Producto[]) => {
           this.productos = resp;
           this.cargando = false;
@@ -33,7 +33,7 @@ export class ProductosService {
 
   }
     getProducto( id: string) {
-     return this.http.get(`https://proyectoestadias-3f3f0.firebaseio.com/productos/${ id }.json`);
+     return this.http.get(`https://conoceguerrero-eb5b7.firebaseio.com/productos/${ id }.json`);
     }
     buscarProducto( termino: string ) {
 

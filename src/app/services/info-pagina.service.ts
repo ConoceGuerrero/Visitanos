@@ -26,7 +26,7 @@ equipo: any[] = [];
     });
    }
   private cargarEquipo() {
-    this.http.get('https://proyectoestadias-3f3f0.firebaseio.com/Productos.json')
+    this.http.get('https://conoceguerrero-eb5b7.firebaseio.com/Productos/Productos.json')
     .subscribe((resp: any[]) => {
     this.equipo = resp;
     // console.log(resp)
